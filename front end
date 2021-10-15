@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Agarwal | Home</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="design.css">
+    <style>
+        h2{
+            color: brown;
+        }
+    </style>
 
+</head>
+<body>
+
+    <header>
+            <h1 style="color:white; font-size: 10;">Harshit Agarwal</h1>
+    </header>
+    <nav>
+
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Blogs</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <main>
+            <section>
+                <h2>Blogs</h2>
+                <video src="video/sitevideo (1).mp4" width="33%"controls poster="image/siteimage (2).jpg"></video>
+                <video src="video/sitevideo (2).mp4" width="33%"controls poster="image/siteimage (1).jpg"></video>
+                <video src="video/sitevideo (3).mp4" width="33%"controls poster="image/siteimage (3).jpg"></video>
+                <h6>source: bloggrids.com</h6>
+
+
+            </section>
+            <section>
+                <h2>Content</h2>
+                <iframe width="33%" height="315" src="https://www.youtube.com/embed/0-4rzdTkDsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="33%" height="315" src="https://www.youtube.com/embed/VmGnqsRiX2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="33%" height="315" src="https://www.youtube.com/embed/CSuK52gpPKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h6>source: bloggrids.com</h6>
+            </section>
+            <section>
+                <h2>About us</h2>
+                <p>We are working to provide the readers with the latest information in the most convenient way. You’ll find information based on tech, social media, business marketing, website, designing, legal and financial services on our website. Our team constantly works to provide recent information that can guide the readers in their professional and daily life activities.
+
+                    On xyz, you will get useful articles on various informational topics, reviews about abc, plugins for web-designing, abc, Softwares, and abc. We have included these features to ensure that the viewer gets the best of awareness and knowledge in their respective professions.
+                    
+                    You can also provide us suggestions so that we can contribute more to our viewer’s growth.
+                    <br>
+                    -Team Harshit</p>
+                <h3>Read more of our content</h3>
+                <a href="https://bloggrids.com/nordvpn-anti-ddos-feature-usa-2021/" target="_blank"><img src="image/nord (1).jpg" alt="nord vpn" width="33%" ></a>
+                <a href="https://bloggrids.com/top-3d-animation-freelancers-to-hire-usa-2021/" target="_blank"><img src="image/anim.jpg" alt="animation" width="33%"></a>
+                <a href="https://bloggrids.com/porto-wordpress-theme/" target="_blank"><img src="image/porto.png" alt="theme" width="33%"></a>
+                </section>
+        
+
+                <section>
+                        <form action="">
+                            <h1>Contact Form</h1>
+                            <p>Name:* <input type="text" name="name" required></p>
+                            <p>Email:* <input type="email" name="email" id="email" required></p>
+                            <p>Message:*<textarea name="address" id="address" cols="20" rows="5"></textarea></p>
+                            <input type="submit" value="Submit">
+                            
+                        </form>
+
+                </section>
+
+                <section>
+                    <h2>Website Developer</h2>
+                    <img src="image/WhatsApp Image 2021-04-10 at 5.36.05 PM.jpeg " alt="Harshit Agarwal" width="20%">
+                    <h3>Harshit Agarwal</h3>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+                    <a href="https://www.linkedin.com/in/harshit-agarwal-1b3b47193" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/harshit_7388 " target="_blank" class="fa fa-instagram"></a>
+                    <a href="har.ag7388@gmail.com " target="_blank" class="fa fa-Email"></a>
+                    <p>
+                      <b> <small>CSE Student @NIET</small></b>  
+                    </p>
+                    
+                </section>
+    </main>
+    <footer>
+
+        <a href="#">Policy</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Address</a>
+        <a href="#">FAQ</a>
+        <a class="copyright" href="#">&copy; 2021 | Harshit Agarwal</a>
+
+
+    </footer>
+
+
+    
+</body>
+</html>
