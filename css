@@ -19,6 +19,7 @@ header {
 }
 
 nav {
+    display: flex;
     background-color: #333;
     overflow: hidden;
 }
@@ -79,4 +80,112 @@ footer a {
 
 .copyright{
     float:right;
+}
+
+.flex-align-left{
+    margin-left: auto;
+}
+
+.menu-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+section h2 span{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 10px 55px;
+    border-radius: 20px;
+}
+
+
+* { box-sizing: border-box; }
+
+body {  font-family: sans-serif; }
+
+
+
+.carousel-cell {
+  width: 66%;
+  
+  margin-right: 10px;
+  
+  border-radius: 5px;
+  
+}
+.carousel-cell video {
+        max-width: 100%;
+}
+
+
+
+
+.profile_img{
+        border-radius: 50%;
+}
+
+.profile_name{
+    color: brown;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+
+}
+.sm-handle a{
+    background-color: rgb(125 125 125 / 25px);
+
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.sm-handle a:hover{
+    background-color:burlywood;
+    opacity: 100%;
+
+}
+
+.sm-handle a{
+    margin: 5px;
+}
+
+.li_handle{
+    color:  #0e76a8
+}
+.ig_handle{
+    color: #8a3ab9;
+}
+.gh_handle{
+    color: #171515;
+}
+
+
+.about_us{
+    margin: 50px;
+}
+.about_title{
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: brown;
+}
+.about_content{
+    color: black;
+    padding-bottom:10px 0px 20px 0px ;
+    font-weight: 900;
+}
+
+@media screen and (max-width:700px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .flex-align-left{
+        margin-left: 0;
+    }
 }
