@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form for Training</h1>
+    <p>this is registraion regarding training and placemenets in collg form next month..</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam ex esse hic dolore velit quo similique, corrupti facere cum natus obcaecati molestias illum numquam ullam voluptates totam incidunt molestiae quisquam alias labore nam? Ducimus quod impedit facilis accusamus libero laboriosam deleniti qui eos reiciendis placeat autem voluptates atque voluptatibus molestiae perspiciatis perferendis, natus ratione exercitationem illo maxime aut sunt veniam enim officiis! Deserunt harum nihil ea rerum dignissimos vitae non ad, molestiae illo magni ex quos commodi cum rem similique sunt adipisci debitis maiores culpa hic delectus sed. Fugit cum unde explicabo rerum nemo? Laborum facere fugiat incidunt officia.</p>
+<form>
+        Firstname:<input type="text" name="" id="">
+        <br><br>
+        Lastname:<input type="text" name="" id="">
+
+        <br><br>
+
+        Gender: <select name="gender" id="">
+
+                <option value="male">male</option>
+                <option value="female">female</option>
+
+        </select>
+        <br><br>
+
+        Email: <input type="text" name="email" id=""><br><br>
+        Phone: <input type="text" name="phone no" id=""><br><br>
+        DOB:  <input type="date" name="date" id=""><br><br>
+        Course : <select name="course" id="">
+
+            <option value="DA">DA</option>
+            <option value="">Java</option>
+            <option value="WEBD">React</option>
+            <option value="WEBD">Python</option>
+            <option value="WEBD">Cyber security</option>     
+         </select>
+            <br><br>
+         12th% : <input type="text" name="score" id="">
+         <br><br> <br>
+
+         For any details contact: <address>
+            Maintained by : <a href="mailto:har.ag7388@gmail.com">Harshit Agarwal</a>
+            <br>
+            Vist us at : NIET Gr.Noida , UP
+
+         </address>
+
+         <br><br>
+        <input type="submit" name="" id="">
+        <input type="reset" name="" id="">
+
+
+
+
+</form>
+
+
+</body>
+</html>
