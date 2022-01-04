@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    
+<script>
+    function validemail(){
+            let x = document.myform.email.value;
+            let atpos = x.indexOf("@");
+            let dotpos = x.lastIndexOf(".");
+            if(atpos<1 || dotpos < atpos + 2 || dotpos + 2 >= x.length){
+                alert("enter valid email");
+                return false;
+            }
+            else{
+                window.confirm("valid email");
+            }
+
+    }
+
+</script>
+
+<body>  
+    <form name="myform" onsubmit="return validemail();">
+        email: <input type="text" name="email" id="">
+        <br>
+        <input type="submit" name="submit" id="">
+
+    </form>
+</body>
+</html>
