@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+             /*make 3 columns of 200px each  */
+             /* grid-template-rows: 70px 70px 70px 70px 70px ;  */
+             grid-gap: 20px ;
+             grid-auto-rows: minmax(100px,auto);
+             grid-auto-columns: minmax(50px,auto);
+             /* these above two attributes will manage the size according to the content in it, with min size rows = 100px and min size cols = 50px as given here*/
+
+
+
+        }
+        
+        .items{
+            background-color: lightskyblue;
+            border: 2px solid palevioletred;
+            border-radius: 3px;
+            font-size: 20px;
+
+        }
+
+        #i2{
+            grid-row-start: 2;
+            grid-row-end:3 ;
+                background-color: brown;
+                color:yellow;
+                grid-column-start: 2;
+                grid-column-end: 3;
+
+        }
+        #i1{
+            grid-row-start: 1;
+            grid-row-end: 3; /* row span*/
+
+
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="items" id="i1"> item1</div>
+        <div class="items" id="i2">item 2</div>
+        <div class="items">item 3</div>
+        <div class="items">item 4</div>
+        <!-- <div class="items">item 5</div> -->
+    </div>
+</body>
+</html>
