@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="webpage.css">
+</head>
+<body>
+
+
+<div class="header">
+  WEBSITE DEVELOPMENT
+  
+</div>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="/contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML#:~:text=HTML%20(HyperText%20Markup%20Language)%20is,and%20structure%20of%20web%20content.&text=HTML%20uses%20%22markup%22%20to%20annotate,display%20in%20a%20Web%20browser.">HTML tut</a>
+             <a href="https://www.w3schools.com/css/">CSS tut</a>
+            <a href="https://javascript.info/">JS tut</a>
+          </div>
+        </div> 
+        <a href="https://www.linkedin.com/in/harshit-agarwal-1b3b47193/">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      <div style="padding-left:16px">
+       
+      <!-- <img src="img1.jfif" style="width: 50%; margin-left: 350px; margin-top: 68px; " alt=""> -->
+
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Column 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellat ipsum minus magnam voluptas, animi facilis mollitia eius, eos natus fugit debitis dignissimos deleniti laboriosam distinctio eaque architecto quam est necessitatibus voluptatum officiis nobis excepturi laborum. Similique nesciunt harum eaque, debitis dolore enim itaque aspernatur praesentium quam! Quibusdam, magni harum.</p>
+
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Column 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum reprehenderit consectetur repellendus blanditiis assumenda? Iure voluptatem dicta harum optio amet quos repudiandae ex exercitationem possimus laudantium, corporis neque, adipisci sint laboriosam asperiores velit repellendus eum, sapiente a accusamus unde officiis? Dolor perferendis nemo qui cumque possimus dolores odio architecto ad.</p>
+
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <h2>Column 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veniam dolores porro accusantium adipisci ipsa facilis, expedita quaerat voluptatum id optio doloremque hic facere iusto nisi omnis praesentium consequatur delectus!</p>
+
+        </div>
+      </div>
+
+    
+
+
+     <div class="btn1">
+      <button type="button" class="btn btn-primary btn-lg" id="mybtn1" style="color:black;background-color: yellow;">Large button</button>
+      <button type="button" class="btn btn-secondary btn-lg"style="color:black;background-color: yellow;">Large button</button>
+      <div id="content"></div>
+
+     </div>
+</body>
+
+
+<div class="foot" >
+  
+  <footer>
+    <h2 style="color: black; font-size: 20px; padding-top: 20px;">Copyright: NIET 2022</h2>
+    
+  </footer>
+
+</div>
+<script src="web.js"></script>
+</html>
