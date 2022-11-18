@@ -1,0 +1,23 @@
+p{
+    color: green;
+}
+a{
+    color:red;
+}
+li{
+    list-style-type:square;
+}
+li em{
+    color: cornflowerblue;
+}
+
+a:hover{
+    color: chartreuse;
+    text-decoration: none;
+
+}
+body h1+p .special {
+    color: aqua;
+    background-color: black;
+    padding: 5px;
+}
