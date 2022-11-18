@@ -1,0 +1,90 @@
+h1{
+    /* text-align: center; */
+    
+}
+.p1{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.table th , td{
+    border: 1px solid black;
+
+}
+/* .head{
+    background-color: aqua;
+    border: 20px;
+} */
+
+
+.skillcontainer{
+    padding: 12px;
+  }
+  
+  
+  .skillitem{
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 550;
+    align-items: center;
+    
+  
+  }
+  
+  
+  
+  
+  .skill {
+    width: 227px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+  }
+  hundred{
+  width: 300px ;
+  background-color: red;
+}
+.fifty{
+  width: 150px ;
+  background-color: darkblue;
+
+}
+.tw5{
+  width: 75px ;
+  background-color: chartreuse;
+
+}
+.zero{
+  width: 20px;
+
+  background-color: black;
+}
+
+#btn{
+  background-color:blue;
+  color: white;
+}
+
+.btn {
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+  background-color: blue;
+  font-size: inherit;
+  font-weight: bold;
+  font-style: initial;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(33, 25, 109);
+}
+
+.container{
+  display: flex;
+
+}
